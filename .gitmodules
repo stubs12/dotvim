@@ -1,0 +1,18 @@
+[submodule "pack/themes/start/vim-code-dark"]
+	path = pack/themes/start/vim-code-dark
+	url = https://github.com/tomasiser/vim-code-dark
+[submodule "pack/dist/start/vim-airline.vim"]
+	path = pack/dist/start/vim-airline.vim
+	url = https://github.com/vim-airline/vim-airline
+[submodule "pack/dist/opt/matchit.vim"]
+	path = pack/dist/opt/matchit.vim
+	url = https://github.com/chrisbra/matchit.git
+[submodule "pack/dist/start/hl_matchit.vim"]
+	path = pack/dist/start/hl_matchit.vim
+	url = https://github.com/vimtaku/hl_matchit.vim.git
+[submodule "pack/dist/start/verilog_systemverilog.vim"]
+	path = pack/dist/start/verilog_systemverilog.vim
+	url = https://github.com/vhda/verilog_systemverilog.vim.git
+[submodule "pack/dist/start/fugitive.vim"]
+	path = pack/dist/start/fugitive.vim
+	url = https://tpope.io/vim/fugitive.git
