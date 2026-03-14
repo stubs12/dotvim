@@ -15,4 +15,17 @@ set noswapfile " Disable swap files
 set autoread " Automatically reload files if changed externally
 set background=dark
 colorscheme codedark
+"
+" Ensure this is AFTER colorscheme codedark
+let g:airline_theme='solarized'
+"let g:airline_solarized_bg='light'
 
+" Fallback: If the theme fails to load, force high contrast colors
+if !exists('g:airline_theme')
+    let g:airline_theme='dark'
+endif
+
+" High-contrast setting for your GUI (gvimrc context)
+if has("gui_running")
+    let g:airline_powerline_fonts = 1
+endif
