@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =4
+let g:netrw_dirhist_4='/home/ken/.vim'
+let g:netrw_dirhist_3='/home/ken/receipieimgformat'
+let g:netrw_dirhist_2='/home/ken/receipeproject'
+let g:netrw_dirhist_1='/home/ken/receipeproject/receipes1'
